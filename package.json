@@ -1,0 +1,29 @@
+{
+  "name": "font2doc",
+  "version": "1.0.1",
+  "description": "font doc generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shankscript/font2doc.git"
+  },
+  "keywords": [
+    "font"
+  ],
+  "author": "https://github.com/shankscript",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shankscript/font2doc/issues"
+  },
+  "homepage": "https://github.com/shankscript/font2doc#readme",
+  "dependencies": {
+    "commander": "^2.17.1",
+    "xml2js": "^0.4.19"
+  },
+  "bin": {
+    "font2doc": "./index.js"
+  }
+}
