@@ -38,7 +38,7 @@ i:before {
 `;
     icons.forEach(m => {
         html += `
-.${m.$['glyph-name']}:before {
+.icon-${m.$['glyph-name']}:before {
     content: "${m.$.unicode}";
 }`
 
@@ -49,8 +49,8 @@ i:before {
     icons.forEach(m => {
         html += `
 <div class="container">
-<h2>${m.$['glyph-name']}<br/>${m.$.unicode}</h2>
-<i class="${m.$['glyph-name']}"></i>
+<h2>icon-${m.$['glyph-name']}<br/>${m.$.unicode}</h2>
+<i class="icon-${m.$['glyph-name']}"></i>
 </div>`
 
     });
